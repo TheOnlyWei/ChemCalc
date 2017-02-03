@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Chemistry Calculator</string>
+    <string name="title">Chemistry Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="top"><b>Top:</b></string>
+    <string name="topTotalMass">Total molar mass:</string>
+
+    <string name="bot"><b>Bottom:</b></string>
+    <string name="botTotalMass">Total molar mass:</string>
+    <string name="clear">Clear All</string>
+
+    <string name="unit_info">Units:</string>
+    <string-array name="mass_units">
+        <item>mega</item>
+        <item>kilo</item>
+        <item>hecto</item>
+        <item>deka</item>
+        <item>normal</item>
+        <item>deci</item>
+        <item>centi</item>
+        <item>milli</item>
+        <item>micro</item>
+    </string-array>
+</resources>

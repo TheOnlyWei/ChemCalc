@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context=".MainActivity">
+
+    <TextView
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow_downward_black_48dp"
+        android:layout_above="@+id/chemEqTo"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imageView"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chemEqFrom"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:text="H2O+CO2"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chemEqTo"
+        android:layout_above="@+id/balance"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp"
+        android:layout_alignEnd="@+id/chemEqFrom"
+        android:text=""
+        />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:id="@+id/balance"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:id="@+id/clear"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/topTotalMassCalc"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/condition"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topTotalMassCalc"
+        android:layout_alignBottom="@+id/molarMass"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/molarMass"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/top"
+        android:id="@+id/top"
+        android:layout_above="@+id/topTotalMassCalc"
+        android:layout_alignParentStart="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/topTotalMass"
+        android:id="@+id/molarMass"
+        android:layout_below="@+id/balance"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bot"
+        android:id="@+id/bot"
+        android:layout_below="@+id/molarMass"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="46dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/botTotalMass"
+        android:id="@+id/botTotalMass"
+        android:layout_below="@+id/bot"
+        android:layout_alignParentStart="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/botTotalMassCalc"
+        android:layout_alignTop="@+id/botTotalMass"
+        android:layout_alignEnd="@+id/topTotalMassCalc"
+        android:layout_toEndOf="@+id/botTotalMass"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="@string/unit_info"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/spinner"/>
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/clear"/>
+
+
+
+</RelativeLayout>

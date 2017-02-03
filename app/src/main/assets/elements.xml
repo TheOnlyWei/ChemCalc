@@ -1,0 +1,779 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Integer _atomicNumber;
+    String _symbol;
+    String _name;
+    Double _molarMass;
+ -->
+<elements>
+    <element>
+        <molarMass>1.0079</molarMass>
+        <name>Hydrogen</name>
+        <symbol>H</symbol>
+        <atomicNumber>1</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>4.0026</molarMass>
+        <name>Helium</name>
+        <symbol>He</symbol>
+        <atomicNumber>2</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>6.941</molarMass>
+        <name>Lithium</name>
+        <symbol>Li</symbol>
+        <atomicNumber>3</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>9.0122</molarMass>
+        <name>Beryllium</name>
+        <symbol>Be</symbol>
+        <atomicNumber>4</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>10.811</molarMass>
+        <name>Boron</name>
+        <symbol>B</symbol>
+        <atomicNumber>5</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>12.0107</molarMass>
+        <name>Carbon</name>
+        <symbol>C</symbol>
+        <atomicNumber>6</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>14.0067</molarMass>
+        <name>Nitrogen</name>
+        <symbol>N</symbol>
+        <atomicNumber>7</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>15.9994</molarMass>
+        <name>Oxygen</name>
+        <symbol>O</symbol>
+        <atomicNumber>8</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>18.9984</molarMass>
+        <name>Fluorine</name>
+        <symbol>F</symbol>
+        <atomicNumber>9</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>20.1797</molarMass>
+        <name>Neon</name>
+        <symbol>Ne</symbol>
+        <atomicNumber>10</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>22.9897</molarMass>
+        <name>Sodium</name>
+        <symbol>Na</symbol>
+        <atomicNumber>11</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>24.305</molarMass>
+        <name>Magnesium</name>
+        <symbol>Mg</symbol>
+        <atomicNumber>12</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>26.9815</molarMass>
+        <name>Aluminum</name>
+        <symbol>Al</symbol>
+        <atomicNumber>13</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>28.0855</molarMass>
+        <name>Silicon</name>
+        <symbol>Si</symbol>
+        <atomicNumber>14</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>30.9738</molarMass>
+        <name>Phosphorus</name>
+        <symbol>P</symbol>
+        <atomicNumber>15</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>32.065</molarMass>
+        <name>Sulfur</name>
+        <symbol>S</symbol>
+        <atomicNumber>16</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>35.453</molarMass>
+        <name>Chlorine</name>
+        <symbol>Cl</symbol>
+        <atomicNumber>17</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>39.0983</molarMass>
+        <name>Potassium</name>
+        <symbol>K</symbol>
+        <atomicNumber>19</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>39.948</molarMass>
+        <name>Argon</name>
+        <symbol>Ar</symbol>
+        <atomicNumber>18</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>40.078</molarMass>
+        <name>Calcium</name>
+        <symbol>Ca</symbol>
+        <atomicNumber>20</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>44.9559</molarMass>
+        <name>Scandium</name>
+        <symbol>Sc</symbol>
+        <atomicNumber>21</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>47.867</molarMass>
+        <name>Titanium</name>
+        <symbol>Ti</symbol>
+        <atomicNumber>22</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>50.9415</molarMass>
+        <name>Vanadium</name>
+        <symbol>V</symbol>
+        <atomicNumber>23</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>51.9961</molarMass>
+        <name>Chromium</name>
+        <symbol>Cr</symbol>
+        <atomicNumber>24</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>54.938</molarMass>
+        <name>Manganese</name>
+        <symbol>Mn</symbol>
+        <atomicNumber>25</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>55.845</molarMass>
+        <name>Iron</name>
+        <symbol>Fe</symbol>
+        <atomicNumber>26</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>58.6934</molarMass>
+        <name>Nickel</name>
+        <symbol>Ni</symbol>
+        <atomicNumber>28</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>58.9332</molarMass>
+        <name>Cobalt</name>
+        <symbol>Co</symbol>
+        <atomicNumber>27</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>63.546</molarMass>
+        <name>Copper</name>
+        <symbol>Cu</symbol>
+        <atomicNumber>29</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>65.39</molarMass>
+        <name>Zinc</name>
+        <symbol>Zn</symbol>
+        <atomicNumber>30</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>69.723</molarMass>
+        <name>Gallium</name>
+        <symbol>Ga</symbol>
+        <atomicNumber>31</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>72.64</molarMass>
+        <name>Germanium</name>
+        <symbol>Ge</symbol>
+        <atomicNumber>32</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>74.9216</molarMass>
+        <name>Arsenic</name>
+        <symbol>As</symbol>
+        <atomicNumber>33</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>78.96</molarMass>
+        <name>Selenium</name>
+        <symbol>Se</symbol>
+        <atomicNumber>34</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>79.904</molarMass>
+        <name>Bromine</name>
+        <symbol>Br</symbol>
+        <atomicNumber>35</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>83.8</molarMass>
+        <name>Krypton</name>
+        <symbol>Kr</symbol>
+        <atomicNumber>36</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>85.4678</molarMass>
+        <name>Rubidium</name>
+        <symbol>Rb</symbol>
+        <atomicNumber>37</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>87.62</molarMass>
+        <name>Strontium</name>
+        <symbol>Sr</symbol>
+        <atomicNumber>38</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>88.9059</molarMass>
+        <name>Yttrium</name>
+        <symbol>Y</symbol>
+        <atomicNumber>39</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>91.224</molarMass>
+        <name>Zirconium</name>
+        <symbol>Zr</symbol>
+        <atomicNumber>40</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>92.9064</molarMass>
+        <name>Niobium</name>
+        <symbol>Nb</symbol>
+        <atomicNumber>41</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>95.94</molarMass>
+        <name>Molybdenum</name>
+        <symbol>Mo</symbol>
+        <atomicNumber>42</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>98</molarMass>
+        <name>Technetium</name>
+        <symbol>Tc</symbol>
+        <atomicNumber>43</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>101.07</molarMass>
+        <name>Ruthenium</name>
+        <symbol>Ru</symbol>
+        <atomicNumber>44</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>102.9055</molarMass>
+        <name>Rhodium</name>
+        <symbol>Rh</symbol>
+        <atomicNumber>45</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>106.42</molarMass>
+        <name>Palladium</name>
+        <symbol>Pd</symbol>
+        <atomicNumber>46</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>107.8682</molarMass>
+        <name>Silver</name>
+        <symbol>Ag</symbol>
+        <atomicNumber>47</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>112.411</molarMass>
+        <name>Cadmium</name>
+        <symbol>Cd</symbol>
+        <atomicNumber>48</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>114.818</molarMass>
+        <name>Indium</name>
+        <symbol>In</symbol>
+        <atomicNumber>49</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>118.71</molarMass>
+        <name>Tin</name>
+        <symbol>Sn</symbol>
+        <atomicNumber>50</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>121.76</molarMass>
+        <name>Antimony</name>
+        <symbol>Sb</symbol>
+        <atomicNumber>51</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>126.9045</molarMass>
+        <name>Iodine</name>
+        <symbol>I</symbol>
+        <atomicNumber>53</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>127.6</molarMass>
+        <name>Tellurium</name>
+        <symbol>Te</symbol>
+        <atomicNumber>52</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>131.293</molarMass>
+        <name>Xenon</name>
+        <symbol>Xe</symbol>
+        <atomicNumber>54</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>132.9055</molarMass>
+        <name>Cesium</name>
+        <symbol>Cs</symbol>
+        <atomicNumber>55</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>137.327</molarMass>
+        <name>Barium</name>
+        <symbol>Ba</symbol>
+        <atomicNumber>56</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>138.9055</molarMass>
+        <name>Lanthanum</name>
+        <symbol>La</symbol>
+        <atomicNumber>57</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>140.116</molarMass>
+        <name>Cerium</name>
+        <symbol>Ce</symbol>
+        <atomicNumber>58</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>140.9077</molarMass>
+        <name>Praseodymium</name>
+        <symbol>Pr</symbol>
+        <atomicNumber>59</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>144.24</molarMass>
+        <name>Neodymium</name>
+        <symbol>Nd</symbol>
+        <atomicNumber>60</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>145</molarMass>
+        <name>Promethium</name>
+        <symbol>Pm</symbol>
+        <atomicNumber>61</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>150.36</molarMass>
+        <name>Samarium</name>
+        <symbol>Sm</symbol>
+        <atomicNumber>62</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>151.964</molarMass>
+        <name>Europium</name>
+        <symbol>Eu</symbol>
+        <atomicNumber>63</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>157.25</molarMass>
+        <name>Gadolinium</name>
+        <symbol>Gd</symbol>
+        <atomicNumber>64</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>158.9253</molarMass>
+        <name>Terbium</name>
+        <symbol>Tb</symbol>
+        <atomicNumber>65</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>162.5</molarMass>
+        <name>Dysprosium</name>
+        <symbol>Dy</symbol>
+        <atomicNumber>66</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>164.9303</molarMass>
+        <name>Holmium</name>
+        <symbol>Ho</symbol>
+        <atomicNumber>67</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>167.259</molarMass>
+        <name>Erbium</name>
+        <symbol>Er</symbol>
+        <atomicNumber>68</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>168.9342</molarMass>
+        <name>Thulium</name>
+        <symbol>Tm</symbol>
+        <atomicNumber>69</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>173.04</molarMass>
+        <name>Ytterbium</name>
+        <symbol>Yb</symbol>
+        <atomicNumber>70</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>174.967</molarMass>
+        <name>Lutetium</name>
+        <symbol>Lu</symbol>
+        <atomicNumber>71</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>178.49</molarMass>
+        <name>Hafnium</name>
+        <symbol>Hf</symbol>
+        <atomicNumber>72</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>180.9479</molarMass>
+        <name>Tantalum</name>
+        <symbol>Ta</symbol>
+        <atomicNumber>73</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>183.84</molarMass>
+        <name>Tungsten</name>
+        <symbol>W</symbol>
+        <atomicNumber>74</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>186.207</molarMass>
+        <name>Rhenium</name>
+        <symbol>Re</symbol>
+        <atomicNumber>75</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>190.23</molarMass>
+        <name>Osmium</name>
+        <symbol>Os</symbol>
+        <atomicNumber>76</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>192.217</molarMass>
+        <name>Iridium</name>
+        <symbol>Ir</symbol>
+        <atomicNumber>77</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>195.078</molarMass>
+        <name>Platinum</name>
+        <symbol>Pt</symbol>
+        <atomicNumber>78</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>196.9665</molarMass>
+        <name>Gold</name>
+        <symbol>Au</symbol>
+        <atomicNumber>79</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>200.59</molarMass>
+        <name>Mercury</name>
+        <symbol>Hg</symbol>
+        <atomicNumber>80</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>204.3833</molarMass>
+        <name>Thallium</name>
+        <symbol>Tl</symbol>
+        <atomicNumber>81</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>207.2</molarMass>
+        <name>Lead</name>
+        <symbol>Pb</symbol>
+        <atomicNumber>82</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>208.9804</molarMass>
+        <name>Bismuth</name>
+        <symbol>Bi</symbol>
+        <atomicNumber>83</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>209</molarMass>
+        <name>Polonium</name>
+        <symbol>Po</symbol>
+        <atomicNumber>84</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>210</molarMass>
+        <name>Astatine</name>
+        <symbol>At</symbol>
+        <atomicNumber>85</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>222</molarMass>
+        <name>Radon</name>
+        <symbol>Rn</symbol>
+        <atomicNumber>86</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>223</molarMass>
+        <name>Francium</name>
+        <symbol>Fr</symbol>
+        <atomicNumber>87</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>226</molarMass>
+        <name>Radium</name>
+        <symbol>Ra</symbol>
+        <atomicNumber>88</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>227</molarMass>
+        <name>Actinium</name>
+        <symbol>Ac</symbol>
+        <atomicNumber>89</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>231.0359</molarMass>
+        <name>Protactinium</name>
+        <symbol>Pa</symbol>
+        <atomicNumber>91</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>232.0381</molarMass>
+        <name>Thorium</name>
+        <symbol>Th</symbol>
+        <atomicNumber>90</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>237</molarMass>
+        <name>Neptunium</name>
+        <symbol>Np</symbol>
+        <atomicNumber>93</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>238.0289</molarMass>
+        <name>Uranium</name>
+        <symbol>U</symbol>
+        <atomicNumber>92</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>243</molarMass>
+        <name>Americium</name>
+        <symbol>Am</symbol>
+        <atomicNumber>95</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>244</molarMass>
+        <name>Plutonium</name>
+        <symbol>Pu</symbol>
+        <atomicNumber>94</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>247</molarMass>
+        <name>Curium</name>
+        <symbol>Cm</symbol>
+        <atomicNumber>96</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>247</molarMass>
+        <name>Berkelium</name>
+        <symbol>Bk</symbol>
+        <atomicNumber>97</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>251</molarMass>
+        <name>Californium</name>
+        <symbol>Cf</symbol>
+        <atomicNumber>98</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>252</molarMass>
+        <name>Einsteinium</name>
+        <symbol>Es</symbol>
+        <atomicNumber>99</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>257</molarMass>
+        <name>Fermium</name>
+        <symbol>Fm</symbol>
+        <atomicNumber>100</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>258</molarMass>
+        <name>Mendelevium</name>
+        <symbol>Md</symbol>
+        <atomicNumber>101</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>259</molarMass>
+        <name>Nobelium</name>
+        <symbol>No</symbol>
+        <atomicNumber>102</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>261</molarMass>
+        <name>Rutherfordium</name>
+        <symbol>Rf</symbol>
+        <atomicNumber>104</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>262</molarMass>
+        <name>Lawrencium</name>
+        <symbol>Lr</symbol>
+        <atomicNumber>103</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>262</molarMass>
+        <name>Dubnium</name>
+        <symbol>Db</symbol>
+        <atomicNumber>105</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>264</molarMass>
+        <name>Bohrium</name>
+        <symbol>Bh</symbol>
+        <atomicNumber>107</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>266</molarMass>
+        <name>Seaborgium</name>
+        <symbol>Sg</symbol>
+        <atomicNumber>106</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>268</molarMass>
+        <name>Meitnerium</name>
+        <symbol>Mt</symbol>
+        <atomicNumber>109</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>272</molarMass>
+        <name>Roentgenium</name>
+        <symbol>Rg</symbol>
+        <atomicNumber>111</atomicNumber>
+    </element>
+
+    <element>
+        <molarMass>277</molarMass>
+        <name>Hassium</name>
+        <symbol>Hs</symbol>
+        <atomicNumber>108</atomicNumber>
+    </element>
+
+</elements>
